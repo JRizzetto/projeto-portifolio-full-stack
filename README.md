@@ -10,4 +10,6 @@ Um curso completo que vai te ensinar a criar o seu Portfólio em uma aplicação
 Exemplo de uso do n8n:
 Conectar Supabase ao seu sistema: Você pode configurar uma automação para quando um novo registro for adicionado ao Supabase (como um novo usuário), o n8n pode automaticamente enviar um e-mail de boas-vindas ou adicionar esses dados a uma planilha do Google Sheets.
 
-4 - 
+4 - Foram criadas tabelas "projetos.csv", "tecnologias.csv" e "projetos_tecnologias.csv" todas foram adicionadas dentro do supabase.
+
+5 - Estamos usando a ferramenta "nestjs"
