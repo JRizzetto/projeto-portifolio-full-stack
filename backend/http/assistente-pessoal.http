@@ -1,0 +1,7 @@
+POST https://jrizzetto.app.n8n.cloud/webhook/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatID": "123456",
+    "mensagem": "Ele trabalha com vannila JavaScript"
+}
