@@ -1,0 +1,12 @@
+{
+  "name": "projeto-portifolio-full-stack",
+  "version": "1.0.0",
+  "description": "Projeto Portfólio Full Stack + Agentes de IA\r Frontend, Backend e Banco de Dados em uma solução completa com Agentes de IA\r Um curso completo que vai te ensinar a criar o seu Portfólio em uma aplicação Full Stack com as principais tecnologias de mercado e turbinado com Agentes de IA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
