@@ -1,14 +1,13 @@
 const baseURL = process.env.NEXT_PUBLIC_API_URL
 
 export async function httpGet(url: string) {
-    if (!baseURL) throw new Error("NEXT_PUBLIC_API_URL não está definido!");
+	console.log(normalizarUrl(`${baseURL}/${url}`))
+	const response = await fetch(normalizarUrl(`${baseURL}/${url}`))
+	return response.json()
+}
 
-    const fullUrl = new URL(url, baseURL).toString();  
-    console.log("Chamando URL:", fullUrl);  // Depuração
-    const response = await fetch(fullUrl);
-
-    if (!response.ok) {
-        throw new Error(`Erro ao buscar dados: ${response.statusText}`);
-    }
-    return response.json();
+function normalizarUrl(url: string) {
+	const protocolo = url.split("://")[0]
+	const restante = url.split("://")[1]
+	return `${protocolo}://${restante.replaceAll(/\/{2,}/g, "/")}`
 }
