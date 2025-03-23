@@ -3,5 +3,5 @@ Content-Type: application/json
 
 {
     "chatID": "123456",
-    "mensagem": "Ele trabalha com vannila JavaScript"
+    "mensagem": "Você é o assistente virtual do Jefferson?"
 }
