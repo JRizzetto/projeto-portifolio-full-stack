@@ -1,4 +1,4 @@
-# 🧑‍💻 Portfoleo
+# 🧑‍💻 projeto-portifolio-full-stack
 
 <div align="center">
 
@@ -23,7 +23,7 @@
 
 </div>
 
-O Portfoleo é uma aplicação full stack que integra tecnologias populares do mercado para criar uma vitrine digital das habilidades e projetos de um desenvolvedor. Esta plataforma vai além da simples exibição de trabalhos anteriores, funcionando como uma demonstração prática das capacidades técnicas do profissional, evidenciando seu domínio em desenvolvimento web moderno.
+O projeto-portifolio-full-stack é uma aplicação full stack que integra tecnologias populares do mercado para criar uma vitrine digital das habilidades e projetos de um desenvolvedor. Esta plataforma vai além da simples exibição de trabalhos anteriores, funcionando como uma demonstração prática das capacidades técnicas do profissional, evidenciando seu domínio em desenvolvimento web moderno.
 
 Além de apresentar os projetos do desenvolvedor, a aplicação incorpora agentes de IA inteligentes que têm acesso completo ao currículo, repositórios do GitHub e histórico do profissional. Essa integração permite que recrutadores e potenciais clientes explorem, através de interações em tempo real via chat, aspectos específicos das competências técnicas do desenvolvedor. Os chats com os agentes oferecem insights valiosos, permitindo que visitantes façam perguntas e recebam informações detalhadas sobre as habilidades e experiências do profissional, tornando o processo de avaliação mais dinâmico e informativo.
 
@@ -44,7 +44,7 @@ Além de apresentar os projetos do desenvolvedor, a aplicação incorpora agente
 2. Acesse o diretório do projeto:
 
     ```sh
-    cd portfoleo
+    cd projeto-portifolio-full-stack
     ```
 
 3. Acesse sua conta no [Supabase](https://supabase.com) ou crie uma nova conta.
